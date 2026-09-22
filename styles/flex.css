@@ -1,0 +1,678 @@
+.кол,
+.кол-ш,
+.кол-в,
+.кол-м {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ряд,
+.ряд-ш,
+.ряд-в,
+.ряд-м {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.кол-ш,
+.ряд-ш {
+  width: 100%;
+}
+
+.кол-в,
+.ряд-в {
+  height: 100%;
+}
+
+.кол-м,
+.ряд-м {
+  width: 100%;
+  height: 100%;
+}
+
+/* Проміжки */
+
+.проміжок-4 {
+  gap: 4px;
+}
+.проміжок-8 {
+  gap: 8px;
+}
+.проміжок-12 {
+  gap: 12px;
+}
+.проміжок-16 {
+  gap: 16px;
+}
+.проміжок-20 {
+  gap: 20px;
+}
+.проміжок-24 {
+  gap: 24px;
+}
+.проміжок-28 {
+  gap: 28px;
+}
+.проміжок-32 {
+  gap: 32px;
+}
+.проміжок-36 {
+  gap: 36px;
+}
+.проміжок-40 {
+  gap: 40px;
+}
+.проміжок-44 {
+  gap: 44px;
+}
+.проміжок-48 {
+  gap: 48px;
+}
+.проміжок-52 {
+  gap: 52px;
+}
+.проміжок-56 {
+  gap: 56px;
+}
+.проміжок-60 {
+  gap: 60px;
+}
+.проміжок-64 {
+  gap: 64px;
+}
+.проміжок-68 {
+  gap: 68px;
+}
+.проміжок-72 {
+  gap: 72px;
+}
+.проміжок-76 {
+  gap: 76px;
+}
+.проміжок-80 {
+  gap: 80px;
+}
+.проміжок-84 {
+  gap: 84px;
+}
+.проміжок-88 {
+  gap: 88px;
+}
+.проміжок-92 {
+  gap: 92px;
+}
+.проміжок-96 {
+  gap: 96px;
+}
+.проміжок-100 {
+  gap: 100px;
+}
+.проміжок-104 {
+  gap: 104px;
+}
+.проміжок-108 {
+  gap: 108px;
+}
+.проміжок-112 {
+  gap: 112px;
+}
+.проміжок-116 {
+  gap: 116px;
+}
+.проміжок-120 {
+  gap: 120px;
+}
+.проміжок-124 {
+  gap: 124px;
+}
+.проміжок-128 {
+  gap: 128px;
+}
+
+/* Внутрішні відступи */
+
+.відступ-4 {
+  padding: 4px;
+  box-sizing: border-box;
+}
+.відступ-8 {
+  padding: 8px;
+  box-sizing: border-box;
+}
+.відступ-12 {
+  padding: 12px;
+  box-sizing: border-box;
+}
+.відступ-16 {
+  padding: 16px;
+  box-sizing: border-box;
+}
+.відступ-20 {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.відступ-24 {
+  padding: 24px;
+  box-sizing: border-box;
+}
+.відступ-28 {
+  padding: 28px;
+  box-sizing: border-box;
+}
+.відступ-32 {
+  padding: 32px;
+  box-sizing: border-box;
+}
+.відступ-36 {
+  padding: 36px;
+  box-sizing: border-box;
+}
+.відступ-40 {
+  padding: 40px;
+  box-sizing: border-box;
+}
+.відступ-44 {
+  padding: 44px;
+  box-sizing: border-box;
+}
+.відступ-48 {
+  padding: 48px;
+  box-sizing: border-box;
+}
+.відступ-52 {
+  padding: 52px;
+  box-sizing: border-box;
+}
+.відступ-56 {
+  padding: 56px;
+  box-sizing: border-box;
+}
+.відступ-60 {
+  padding: 60px;
+  box-sizing: border-box;
+}
+.відступ-64 {
+  padding: 64px;
+  box-sizing: border-box;
+}
+.відступ-68 {
+  padding: 68px;
+  box-sizing: border-box;
+}
+.відступ-72 {
+  padding: 72px;
+  box-sizing: border-box;
+}
+.відступ-76 {
+  padding: 76px;
+  box-sizing: border-box;
+}
+.відступ-80 {
+  padding: 80px;
+  box-sizing: border-box;
+}
+.відступ-84 {
+  padding: 84px;
+  box-sizing: border-box;
+}
+.відступ-88 {
+  padding: 88px;
+  box-sizing: border-box;
+}
+.відступ-92 {
+  padding: 92px;
+  box-sizing: border-box;
+}
+.відступ-96 {
+  padding: 96px;
+  box-sizing: border-box;
+}
+.відступ-100 {
+  padding: 100px;
+  box-sizing: border-box;
+}
+.відступ-104 {
+  padding: 104px;
+  box-sizing: border-box;
+}
+.відступ-108 {
+  padding: 108px;
+  box-sizing: border-box;
+}
+.відступ-112 {
+  padding: 112px;
+  box-sizing: border-box;
+}
+.відступ-116 {
+  padding: 116px;
+  box-sizing: border-box;
+}
+.відступ-120 {
+  padding: 120px;
+  box-sizing: border-box;
+}
+.відступ-124 {
+  padding: 124px;
+  box-sizing: border-box;
+}
+.відступ-128 {
+  padding: 128px;
+  box-sizing: border-box;
+}
+
+/* Заокруглення */
+
+.заокруглення-4 {
+  border-radius: 4px;
+}
+.заокруглення-8 {
+  border-radius: 8px;
+}
+.заокруглення-12 {
+  border-radius: 12px;
+}
+.заокруглення-16 {
+  border-radius: 16px;
+}
+.заокруглення-20 {
+  border-radius: 20px;
+}
+.заокруглення-24 {
+  border-radius: 24px;
+}
+.заокруглення-28 {
+  border-radius: 28px;
+}
+.заокруглення-32 {
+  border-radius: 32px;
+}
+.заокруглення-36 {
+  border-radius: 36px;
+}
+.заокруглення-40 {
+  border-radius: 40px;
+}
+.заокруглення-44 {
+  border-radius: 44px;
+}
+.заокруглення-48 {
+  border-radius: 48px;
+}
+.заокруглення-52 {
+  border-radius: 52px;
+}
+.заокруглення-56 {
+  border-radius: 56px;
+}
+.заокруглення-60 {
+  border-radius: 60px;
+}
+.заокруглення-64 {
+  border-radius: 64px;
+}
+.заокруглення-68 {
+  border-radius: 68px;
+}
+.заокруглення-72 {
+  border-radius: 72px;
+}
+.заокруглення-76 {
+  border-radius: 76px;
+}
+.заокруглення-80 {
+  border-radius: 80px;
+}
+.заокруглення-84 {
+  border-radius: 84px;
+}
+.заокруглення-88 {
+  border-radius: 88px;
+}
+.заокруглення-92 {
+  border-radius: 92px;
+}
+.заокруглення-96 {
+  border-radius: 96px;
+}
+.заокруглення-100 {
+  border-radius: 100px;
+}
+.заокруглення-104 {
+  border-radius: 104px;
+}
+.заокруглення-108 {
+  border-radius: 108px;
+}
+.заокруглення-112 {
+  border-radius: 112px;
+}
+.заокруглення-116 {
+  border-radius: 116px;
+}
+.заокруглення-120 {
+  border-radius: 120px;
+}
+.заокруглення-124 {
+  border-radius: 124px;
+}
+.заокруглення-128 {
+  border-radius: 128px;
+}
+
+/* Розмір тексту */
+
+.текст-8 {
+  font-size: 8px;
+}
+.текст-10 {
+  font-size: 10px;
+}
+.текст-12 {
+  font-size: 12px;
+}
+.текст-14 {
+  font-size: 14px;
+}
+.текст-16 {
+  font-size: 16px;
+}
+.текст-18 {
+  font-size: 18px;
+}
+.текст-20 {
+  font-size: 20px;
+}
+.текст-22 {
+  font-size: 22px;
+}
+.текст-24 {
+  font-size: 24px;
+}
+.текст-26 {
+  font-size: 26px;
+}
+.текст-28 {
+  font-size: 28px;
+}
+.текст-30 {
+  font-size: 30px;
+}
+.текст-32 {
+  font-size: 32px;
+}
+.текст-34 {
+  font-size: 34px;
+}
+.текст-36 {
+  font-size: 36px;
+}
+.текст-38 {
+  font-size: 38px;
+}
+.текст-40 {
+  font-size: 40px;
+}
+.текст-42 {
+  font-size: 42px;
+}
+.текст-44 {
+  font-size: 44px;
+}
+.текст-46 {
+  font-size: 46px;
+}
+.текст-48 {
+  font-size: 48px;
+}
+.текст-50 {
+  font-size: 50px;
+}
+.текст-52 {
+  font-size: 52px;
+}
+.текст-54 {
+  font-size: 54px;
+}
+.текст-56 {
+  font-size: 56px;
+}
+.текст-58 {
+  font-size: 58px;
+}
+.текст-60 {
+  font-size: 60px;
+}
+.текст-62 {
+  font-size: 62px;
+}
+.текст-64 {
+  font-size: 64px;
+}
+
+/* Жирний текст */
+
+.жирний-8 {
+  font-size: 8px;
+  font-weight: bold;
+}
+.жирний-10 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.жирний-12 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.жирний-14 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.жирний-16 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.жирний-18 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.жирний-20 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.жирний-22 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.жирний-24 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.жирний-26 {
+  font-size: 26px;
+  font-weight: bold;
+}
+.жирний-28 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.жирний-30 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.жирний-32 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.жирний-34 {
+  font-size: 34px;
+  font-weight: bold;
+}
+.жирний-36 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.жирний-38 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.жирний-40 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.жирний-42 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.жирний-44 {
+  font-size: 44px;
+  font-weight: bold;
+}
+.жирний-46 {
+  font-size: 46px;
+  font-weight: bold;
+}
+.жирний-48 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.жирний-50 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.жирний-52 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.жирний-54 {
+  font-size: 54px;
+  font-weight: bold;
+}
+.жирний-56 {
+  font-size: 56px;
+  font-weight: bold;
+}
+.жирний-58 {
+  font-size: 58px;
+  font-weight: bold;
+}
+.жирний-60 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.жирний-62 {
+  font-size: 62px;
+  font-weight: bold;
+}
+.жирний-64 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+/* Колір тексту */
+
+.колір-1 {
+  color: var(--cr1);
+}
+.колір-2 {
+  color: var(--cr2);
+}
+.колір-3 {
+  color: var(--cr3);
+}
+.колір-4 {
+  color: var(--cr4);
+}
+.колір-5 {
+  color: var(--cr5);
+}
+.колір-6 {
+  color: var(--cr6);
+}
+.колір-7 {
+  color: var(--cr7);
+}
+
+/* Колір фону */
+
+.фон-1 {
+  background: var(--bg1);
+}
+.фон-2 {
+  background: var(--bg2);
+}
+.фон-3 {
+  background: var(--bg3);
+}
+.фон-4 {
+  background: var(--bg4);
+}
+.фон-5 {
+  background: var(--bg5);
+}
+.фон-6 {
+  background: var(--bg6);
+}
+.фон-7 {
+  background: var(--bg7);
+}
+
+/* Максимальна кількість рядків */
+
+.рядків-1,
+.рядків-2,
+.рядків-3,
+.рядків-4,
+.рядків-5,
+.рядків-6,
+.рядків-7,
+.рядків-8,
+.рядків-9,
+.рядків-10,
+.рядків-11,
+.рядків-12 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+  width: 100%;
+}
+
+.рядків-1 {
+  -webkit-line-clamp: 1;
+}
+.рядків-2 {
+  -webkit-line-clamp: 2;
+}
+.рядків-3 {
+  -webkit-line-clamp: 3;
+}
+.рядків-4 {
+  -webkit-line-clamp: 4;
+}
+.рядків-5 {
+  -webkit-line-clamp: 5;
+}
+.рядків-6 {
+  -webkit-line-clamp: 6;
+}
+.рядків-7 {
+  -webkit-line-clamp: 7;
+}
+.рядків-8 {
+  -webkit-line-clamp: 8;
+}
+.рядків-9 {
+  -webkit-line-clamp: 9;
+}
+.рядків-10 {
+  -webkit-line-clamp: 10;
+}
+.рядків-11 {
+  -webkit-line-clamp: 11;
+}
+.рядків-12 {
+  -webkit-line-clamp: 12;
+}

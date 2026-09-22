@@ -1,0 +1,54 @@
+.червоний {
+  background: #d32f2f;
+  color: #ffffff;
+}
+
+.зелений {
+  background: #2e7d32;
+  color: #ffffff;
+}
+
+.синій {
+  background: #1976d2;
+  color: #ffffff;
+}
+
+.жовтий {
+  background: #fbc02d;
+  color: #000000;
+}
+
+.помаранчевий {
+  background: #f57c00;
+  color: #000000;
+}
+
+.фіолетовий {
+  background: #6a1b9a;
+  color: #ffffff;
+}
+
+.блакитний {
+  background: #4fc3f7;
+  color: #000000;
+}
+
+.бірюзовий {
+  background: #00897b;
+  color: #ffffff;
+}
+
+.сірий {
+  background: #9e9e9e;
+  color: #000000;
+}
+
+.чорний {
+  background: #000000;
+  color: #ffffff;
+}
+
+.бiлий {
+  background: #ffffff;
+  color: #000000;
+}
